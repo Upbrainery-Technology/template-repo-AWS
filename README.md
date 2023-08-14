@@ -1,6 +1,6 @@
-<h2 align="center"> 
-  <img src="https://github.com/arthurlawrence-org/template-repo-AWS-master/assets/85288256/5b7b27ea-023d-44d1-bb92-0303ac2d0bc7" alt="[Arthur Lawrence](https://github.com/arthurlawrence-org)" width="450" height="108">
-<h2/>
+ <h2 align="center">   
+  <img src="https://github.com/Upbrainery-Technology/template-repo-AWS/assets/85288256/09ad0457-b8ee-4ab9-9a02-534cdefff5c0" alt="[Arthur Lawrence](https://github.com/Upbrainery-Technology)" width="500" height="92.11">
+ <h2/>
   
 # Template-repository
 This will be the template repository and will be used for creating all the repositories in this organization. 
