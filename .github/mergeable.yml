@@ -4,8 +4,8 @@ mergeable:
     validate:
       - do: commit
         message:
-            regex: '(?=.*(^((build:|chore:|ci:|docs:|feat:|fix:|perf:|refactor:|revert:|update:|create:|style:|test:)(( )|())([a-z]\w{1,72})))|(Merge (.*\s*)*)|(Initial commit$))(?=.*([A-z]+(-)[0-9]))'
-            message: Adhere to the branch naming convention described <a href="https://github.com/arthurlawrence-org/template-repo-AWS#branch-naming-convention-on-github">here</a>    
+            regex: '(?=.*(^((build:|chore:|ci:|docs:|feat:|fix:|perf:|refactor:|revert:|update:|create:|style:|test:)(( )|())([a-z]\w{1,72})))|(Merge(.*\s*)*)|(Initial commit$))(?=.*([A-z]+(-)[0-9]))'
+            message: Adhere to the branch naming convention described <a href="hhttps://github.com/Upbrainery-Technology/template-repo-AWS">here</a>    
         pass:
         - do: checks # default pass case
           status: 'success' # Can be: success, failure, neutral, cancelled, timed_out, or action_required
@@ -39,4 +39,4 @@ mergeable:
           payload:
               body: >
                     :warning: <h2>Please add Jira ticket id i.e. "JIRA-ID"</h2>
-                    <h3>Check Fail Adhere to the branch naming convention described <a href="https://github.com/arthurlawrence-org/template-repo-AWS#branch-naming-convention-on-github">here</a></h3>
+                    <h3>Check Fail Adhere to the branch naming convention described <a href="https://github.com/Upbrainery-Technology/template-repo-AWS">here</a></h3>
