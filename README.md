@@ -43,7 +43,9 @@ This will be the template repository and will be used for creating all the repos
 
 - These will be the main branches that will trigger the AWS Codebuild and CodePipeline via [webhook]
   - Upon merging the PR the pipeline trigger can be set, just choose PULL_REQUEST_MERGED and start the build under Head_Ref - refs/heads/branch-name
-- Here branch names will be *develop* , *stage* & *master* .
+- Here branch names will be 
+*develop* - *stage* - *master* 
+
   
   ![254796324-8aa8d968-4668-40b9-a291-6eb6b5cd0f8a](https://github.com/arthurlawrence-org/template-repo-AWS-master/assets/85288256/3e46dcf4-7ec3-457e-87c1-0c89abae5bab)
   
@@ -78,8 +80,7 @@ This will be the template repository and will be used for creating all the repos
 
 #### Sample Commit 
 ```jsx
-fix: summarize the fix in less than 72 characters JIRA-1337
-BREAKING CHANGES: ticket endpoints no longer support the list of all entities.
+fix: summarize the fix in less than 72 characters-JIRA-1337
 ```
 
 ## Pull Requests Standards
