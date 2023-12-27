@@ -1,9 +1,0 @@
-{
-    "sonarlint.connectedMode.project": {
-        "connectionId": "",
-        "projectKey": ""
-    },
-    "conventionalCommits.scopes": [
-        "adding template repo"
-    ]
-}
